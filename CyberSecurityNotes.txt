@@ -1,0 +1,216 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++Terminal Commands+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+cd-change directory-for navigating    ex.  cd_name-of-folder    (DONT USE UPPERCASE)              _ =space 
+
+pwd-present working directory         /Documents/Name/... 
+
+../-go back up one (cd..) 
+
+../../-chaining commands (cd.. Is go back 1, cd../../.. Is go back twice) 
+
+Control Z 
+
+ls (LS)-tells you what's around you and what available to you going forward (can't look backwards) 
+
+DONT USE SPACES 
+
+
+--------------------------------------------How to open file (DONT USE CAP BUTTON)-------------------------------------------------------
+
+-cd ~/Documents  
+
+-cd Dowayyyy 
+
+-open ‘Doway da best!’ 
+
+-Clear 
+
+-Create a file: touch name
+
+-Create a folder: mkdir name 
+
+-Moving folder or file: mv moving_name place_name/ 
+
+-Rename folder: mv old_name new_name 
+
+-Rename file: cd ~/where the file is located(i.e Documents), then mv old_filename new_filename 
+
+-How to move folders and files into other main folder: 
+
+-~/Downloads $ mv file ../Downloads 
+
+-Write out= save 
+
+-Basic Bash commands (echo, read, etc.) 
+
+-Cd / :root domain 
+
+----------------------------------------------------------Here is a list of some of the most commonly used bash commands: 
+
+-cd: Change the directory to a different location. 
+
+-ls: List the contents of the current directory. 
+
+-mkdir: Create a new directory. 
+
+-touch: Create a new file. 
+
+-rm: Remove a file. 
+
+-rmdir: removes directory 
+
+-Rm –r directory_name  
+
+-cp: Copy a file or directory. 
+
+-mv: Move or rename a file or directory. 
+
+-echo: Print text to the terminal. 
+
+-cat: Concatenate and print the contents of a file. 
+
+-grep: Search for a pattern in a file. 
+
+-chmod: Change the permissions of a file or directory. 
+
+-sudo: Run a command with administrative privileges. 
+
+-df: Display the amount of disk space available. 
+
+-history: Show a list of previously executed commands. 
+
+-ps: Display information about running processes. 
+
+-ls –l (L) gives long list with lots of info 
+
+-Ctrl ; opens emoji selections in nano 
+
+-Pwd = present working directory 
+
+-.sh belongs to shell so the computer knows what we’re trying to open file with (e.i. GIF, PDF,etc) 
+
+==========================================================Git Commands====================================================================
+
+-Initialize Repository: git init 
+
+-Configure Git: git config --global user.name "Your Name" 
+
+git config --global user.email youremail@example.com 
+
+-Check Status: git status 
+
+-Stage Files: git add filename  
+
+git add . 
+
+-Commit Changes: git commit -m "message" 
+
+-View Log: git log 
+
+-Create and Switch Branch: git checkout -b branch-name 
+
+-Switch Branch: git checkout branch-name 
+
+-Merge Branches: git merge branch-name 
+
+-Delete Branch: git branch -d branch-name 
+
+-Undo Changes in Working Directory:  
+
+~Using git restore(newer versions): git restore filename 
+
+~Using git checkout(older versions): git checkout –filename 
+
+-Remove Cached File: git rm --cached filename 
+
+-Set Alias: git config --global alias.alias-name command 
+
+-Tag a Commit: git tag -a v1.0 -m "message" 
+
+-Reset Commits: it reset --soft HEAD~1 
+
+it reset --hard HEAD~1 
+
+______________________________________________________How to download Debian_______________________________________________________
+
+Go to edge, go to setting and then to download, change location to the created folder(debian inside your_name_period) 
+
+Debian 11.x 64-bit  
+non-comercial 
+
+20 gb memory 
+
+8 gb ram 
+
+2 cpu(processor) 
+
+--------------------------------------Layers of a operating file---------------------------------
+
+Hardware 
+Firmware 
+BIOS (Binary Input Output Systems)---------||| 
+Kernal                                                            |||      layers of OS (Operating system) 
+Shell                                                               |||      
+
+File system                                                     ||| 
+
+-Hardware----->firmware---->Binary Input Output Systems (BIOS)----> (OS-operating system- starts here) Kernal ---->Shell---->File system 
+
+-Binary is also known as “Machine language” and assembly code is a level above “machine language” 
+
+-base layer of programming that exists on every hardware 
+
+-BIOS is the firmware for the mother board, its main job is to check if everything is working
+correctly and if not, it will alert. (makes sure everything's turned on) 
+
+Kernal determines the style/architecture of the operating system based on what it's used for.
+ Also passes information(messenger/translator) 
+
+-Operating systems: IOS, android, Linux, cisco, Debian, ubuntu, windows, iMac, etc. 
+(1000-1200+ system operators) 
+
+-Kali Linux is used for exploitation tools, forensic tools, hardware hacking, information 
+gathering, password cracking, reverse engineering, wireless attacks, web applications, 
+stress testing, sniffing and spoofing, vulnerability analysis, and many more 
+
+
+=================================What is bash scripting?==============================
+
+Bash scripting involves writing a series of commands in a plain text file (called a script)
+that the Bash interpreter can execute. This allows you to automate tasks, manage system
+operations, and perform complex sequences of actions with just a single command.
+
+-------------Basic Components of a Bash Script
+Shebang (#!) Line:
+
+The first line in a script that tells the system which interpreter to use.
+Example:
+bash
+Copy code
+#!/bin/bash
+Commands:
+
+The actual instructions you want the script to perform.
+Example:
+bash
+Copy code
+echo "Hello, World!"
+Comments:
+
+Lines that start with # and are not executed. They help explain the script.
+Example:
+bash
+Copy code
+# This is a comment
+
+
+
+
+
+
+
+
+
+
+
+ 
