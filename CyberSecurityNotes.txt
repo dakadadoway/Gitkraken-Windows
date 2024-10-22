@@ -396,3 +396,8 @@ Write a commit message:
 Below the staging area, there's a field to enter your commit message. Write a meaningful message that describes the changes you've made.
 Commit the changes:
 
+After staging and writing the commit message, click the Commit Changes button at the bottom of the panel.
+Push to the remote repository (optional):
+
+If you want to push your commit to the remote repository, click the Push button (it looks like an upward arrow) on the top toolbar.
+ 
