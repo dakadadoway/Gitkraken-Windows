@@ -381,4 +381,18 @@ non-comercial
  
 
 >>>>>>> origin/main
- 
+
+
+
+/////////////////////////////////////////////////////To commit a repository in GitKraken, follow these steps://///////////////////////////////////
+Open your repository: Launch GitKraken and open the repository you want to commit to.
+
+Stage your changes:
+
+In the left panel, under the "Unstaged Files" section, you'll see the files with changes.
+You can stage all files by clicking the checkbox next to "Unstaged Files" or stage individual files by selecting the checkboxes next to each file.
+Write a commit message:
+
+Below the staging area, there's a field to enter your commit message. Write a meaningful message that describes the changes you've made.
+Commit the changes:
+
