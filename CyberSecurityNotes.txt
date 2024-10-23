@@ -401,3 +401,20 @@ Push to the remote repository (optional):
 
 If you want to push your commit to the remote repository, click the Push button (it looks like an upward arrow) on the top toolbar.
  
+ 
+000000000000000000000000000000000000000000000000-System security-000000000000000000000000000000000000000000
+
+System security: Linux
+-Keep everyone at Least privilage
+-user and group persmission
+-Regular updates
+-Firefalls
+-Strong password policies
+-Auditing and logging
+-Secure shell (SSH)
+-Disable unnecessary services
+-Data encryption
+-Backup regularely
+
+
+ 
