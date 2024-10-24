@@ -421,3 +421,146 @@ System security: Linux
  
 =======
 >>>>>>> origin/main
+
+
+
+
+
+&*&*&*&*&**&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&&*&*&*&**&*&*&*&*&*&*&*&*&&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&
+%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%%^%^%^%^%^%%^%^-Full Cyber Notes(bash, system monitering & security)%^%^%^%^%^%^%^%^%^%^%^%^%^%^%
+$#$$#$#$#$#$#$#$##$#$##$#$#$#$#$#$#$#$#$#$$#$#$#%#$#%$#$$$#$#$#$#$#$#$##$##$#$#$#$#$#$#$#$###$#$#$#$#$#$##$$#$#$#$#$#$$#$#$$$#
+
+
+Bash Scripting: Research and Notes
+1. Definition: What is a Bash script? What are its uses in Linux?
+-Bash Script: A Bash script is a plain text file containing a series of commands written in the Bash (Bourne Again Shell) language. It’s a scripting language used for automating tasks in Linux and Unix-based systems.
+-Uses in Linux:
+    Automating repetitive tasks
+    Running system maintenance
+    Managing files and directories
+    Running scripts at specific times using cron jobs
+    Configuring environments and handling backups
+
+2. Basic Syntax: How to write a simple Bash script
+-Creating a Basic Script
+    1.Start the script with the shebang line to indicate the script should be run with Bash:
+
+        #!/bin/bash
+    2.Write the commands you want to execute line by line.
+        -Using Variables:
+        Syntax:
+
+        VAR_NAME=value
+        echo $VAR_NAME
+        
+        -Example:
+
+        #!/bin/bash
+        NAME="Student"
+        echo "Hello, $NAME!"
+        
+        -Control Structures:
+        1.if-else statement:
+
+        if [ condition ]; then
+        # Code to execute if condition is true
+        else
+        # Code to execute if condition is false
+        fi  
+        
+        -Example:
+
+        #!/bin/bash
+        number=5
+        if [ $number -gt 0 ]; then
+        echo "Number is positive"
+        else
+        echo "Number is negative"
+        fi
+        
+        2.for loop:
+
+        for var in item1 item2 item3; do
+            # Commands to execute for each item
+        done
+        
+        -Example:
+
+        #!/bin/bash
+        for i in 1 2 3 4 5; do
+            echo "Number: $i"
+        done
+        
+        3.while loop:
+
+        while [ condition ]; do
+            # Code to execute while the condition is true
+        done
+        
+        -Example:
+
+        #!/bin/bash
+        count=1
+        while [ $count -le 5 ]; do
+            echo "Count: $count"
+            ((count++))
+        done
+
+3. Key Bash Commands and How They Work in Scripts
+echo: Prints text or variables to the screen.
+
+
+echo "Hello, World!"
+echo "My name is $NAME"
+read: Takes user input and assigns it to a variable.
+
+
+read -p "Enter your name: " USERNAME
+echo "Welcome, $USERNAME"
+touch: Creates an empty file if it doesn't exist.
+
+
+touch myfile.txt
+mkdir: Creates a directory.
+
+
+mkdir my_directory
+if: Checks conditions and executes code based on true/false outcomes.
+
+
+if [ condition ]; then
+    # do something
+fi
+4. Self-Made Instructions: Test Script Example
+Task: Create a script that checks if a directory exists, and if not, creates it.
+Script:
+
+
+#!/bin/bash
+# Check if directory exists, create it if it doesn't
+
+DIRECTORY="myfolder"
+
+if [ -d "$DIRECTORY" ]; then
+    echo "Directory $DIRECTORY already exists."
+else
+    echo "Directory $DIRECTORY does not exist. Creating now..."
+    mkdir $DIRECTORY
+    echo "Directory $DIRECTORY created."
+fi
+How it works:
+
+-d: Checks if the directory exists.
+If the directory does not exist, it will create it using mkdir.
+
+
+
+
+
+
+
+
+
+
+
+
