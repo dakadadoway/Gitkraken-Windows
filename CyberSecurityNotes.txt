@@ -401,6 +401,7 @@ Push to the remote repository (optional):
 
 If you want to push your commit to the remote repository, click the Push button (it looks like an upward arrow) on the top toolbar.
  
+<<<<<<< HEAD
  
 000000000000000000000000000000000000000000000000-System security-000000000000000000000000000000000000000000
 
@@ -418,3 +419,5 @@ System security: Linux
 
 
  
+=======
+>>>>>>> origin/main
